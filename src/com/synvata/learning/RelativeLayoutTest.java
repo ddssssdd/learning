@@ -10,6 +10,7 @@ public class RelativeLayoutTest extends Activity {
 		setContentView(R.layout.relativelayout_test);
 		//test
 		//i add new test.
+		//this is test from third place.
 	}
 
 }
