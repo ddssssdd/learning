@@ -9,6 +9,7 @@ public class RelativeLayoutTest extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.relativelayout_test);
 		//test
+		//i add new test.
 	}
 
 }
