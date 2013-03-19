@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top">
+      	<EditText android:id="@+id/txtUsername"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_centerHorizontal="true"
+      	    android:layout_marginTop="30dp"
+      	    android:imeOptions="actionNext"
+      		android:hint="@string/username"
+      	    android:padding="10dp"
+      	    android:singleLine="true"/>
+      		<requestFocus />
+      	
+      	<EditText android:id="@+id/txtPassword"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_centerHorizontal="true"
+      	    android:hint="@string/password"
+      	    android:layout_below="@id/txtUsername"
+      	    android:layout_alignRight="@id/txtUsername"
+      	    android:layout_alignLeft="@id/txtUsername"
+      	    android:imeOptions="actionDone"
+      	    android:padding="10dp"
+      	    android:inputType="textPassword"
+      	    android:singleLine="true"/>
+
+      	<EditText
+      	    android:id="@+id/editText1"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_alignLeft="@id/txtPassword"
+      	    android:layout_alignRight="@id/txtPassword"
+      	    android:layout_below="@id/txtPassword"
+      	    android:layout_marginTop="10dp"
+      	    android:ems="10"
+      	    android:hint="Phone"
+      	    android:inputType="phone" />
+
+        
+
+        <Button
+            android:id="@+id/btnSignup_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtPassword"
+            android:layout_below="@+id/txtPassword"
+            android:layout_marginTop="63dp"
+            android:text="Signup" />
+		<Button android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btnSignup_link"
+            android:layout_alignRight="@id/txtPassword"
+            android:text="Login"
+            />
+    </RelativeLayout>
+    
+
+</LinearLayout>

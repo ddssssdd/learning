@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="flight_option_preference"
+    android:summary="@string/prefSummary"
+    android:title="@string/prefTitle" >
+
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="meats_screen"
+        android:summary="Preferences related to meats"
+        android:title="Meats" >
+        <ListPreference
+            android:defaultValue="@string/flight_sort_option_default_value"
+            android:dialogTitle="@string/dialogTitle"
+            android:entries="@array/flight_sort_options"
+            android:entryValues="@array/flight_sort_options_values"
+            android:key="@string/selected_flight_sort_option"
+            android:summary="@string/listSummary"
+            android:title="@string/listTitle" />
+
+        <CheckBoxPreference
+            android:key="show_departure_column_pref"
+            android:summary="Show Departure column"
+            android:title="Departure" />
+        <CheckBoxPreference
+            android:key="show_arrival_column_pref"
+            android:summary="Show Arrival column"
+            android:title="Arrival" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="Others screen"
+        android:summary="Preferences related to meats"
+        android:title="Others" >
+        <CheckBoxPreference
+            android:key="show_total_travel_time_column_pref"
+            android:summary="Show Total Travel Time column"
+            android:title="Total Travel Time" />
+        <CheckBoxPreference
+            android:key="show_price_column_pref"
+            android:summary="Show Price column"
+            android:title="Price" />
+
+        <EditTextPreference
+            android:dialogTitle="Package Name"
+            android:key="package_name_preference"
+            android:summary="Set the package name for generated code"
+            android:title="Set Package Name" />
+
+        <CheckBoxPreference
+            android:key="alert_email"
+            android:title="Send email?" />
+
+        <EditTextPreference
+            android:dependency="alert_email"
+            android:key="alert_email_address"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="Email Address" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

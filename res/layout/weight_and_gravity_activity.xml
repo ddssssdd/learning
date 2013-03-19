@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <include layout="@layout/home_title_layout"/>
+    <!--  
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="one">
+	</EditText>
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="two">
+	</EditText>
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="three">
+	</EditText>
+	-->
+	<!--  
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="left"
+	    android:text="one">
+	</EditText>
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="two">
+	</EditText>
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="right"
+	    android:text="three">
+	 -->
+	 <EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="left"
+	    android:layout_weight="0.0"
+	    android:text="one">
+	</EditText>
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_weight="1.0"
+	    android:text="two">
+	</EditText>
+	<EditText android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="right"
+	    android:layout_weight="0.0"
+	    android:text="three">
+	</EditText>"
+</LinearLayout>
