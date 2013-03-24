@@ -34,6 +34,7 @@
          <activity android:name="com.synvata.learning.ListViewByBaseAdapter"></activity>
          <activity android:name="com.synvata.learning.CodeCreateUIActivity"></activity>
          <activity android:name="com.synvata.learning.WeightAndGravityActivity"></activity>
+         <activity android:name="com.synvata.learning.TabTestActivity"></activity>
          <activity android:name="com.synvata.thread.MainActivity"></activity>
          <activity android:name="com.synvata.modules.InformationActivity"></activity>
          <activity android:name="com.synvata.modules.HelpCallActivity"></activity>

@@ -89,7 +89,7 @@ public class MainActivity extends BaseHttpActivity {
 		
 		addItem("RelativeLayout","RelativeLayout test and Button",mList,RelativeLayoutTest.class);
 		addItem("Prefs setup","Prefs setup view",mList,FlightPreference.class);
-		addItem("Login","Login Window",mList,LoginActivity.class);
+		addItem("Tab host test","Tab host activity test",mList,TabTestActivity.class);
 		addItem("BaseAdapter Test","Custom ListView by inherit from BaseAdapter",mList,ListViewByBaseAdapter.class);
 		addItem("Dynamic create UI","Dynamic create ui components",mList,CodeCreateUIActivity.class);
 		addItem("Weight and Gravity","Weight and Gravith in LinearLayout",mList,WeightAndGravityActivity.class);

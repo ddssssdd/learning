@@ -67,7 +67,7 @@ public final class R {
         public static final int btnSignUp1=0x7f0a0087;
         public static final int btnSignUp_InLogin=0x7f0a0023;
         public static final int btnSignup_link=0x7f0a0016;
-        public static final int btnStart=0x7f0a008f;
+        public static final int btnStart=0x7f0a0092;
         public static final int btn_carregistration_edit=0x7f0a002d;
         public static final int btn_carregistration_save=0x7f0a004a;
         public static final int btn_carregistration_search=0x7f0a003a;
@@ -127,11 +127,13 @@ public final class R {
         public static final int listitem_title=0x7f0a000d;
         public static final int main_login_btn=0x7f0a0085;
         public static final int main_regist_btn=0x7f0a0086;
-        public static final int menu_settings=0x7f0a0091;
+        public static final int menu_settings=0x7f0a0094;
         public static final int modules_information_listview=0x7f0a005f;
         public static final int moudles_helpcall_listview=0x7f0a005e;
         public static final int password=0x7f0a0022;
         public static final int relativeLayout1=0x7f0a001f;
+        public static final int tabFirst=0x7f0a008f;
+        public static final int tabSecond=0x7f0a0091;
         public static final int tableRow1=0x7f0a0018;
         public static final int tableRow2=0x7f0a001a;
         public static final int tableRow3=0x7f0a001c;
@@ -150,7 +152,7 @@ public final class R {
         public static final int title_ry=0x7f0a000a;
         public static final int title_set_bn=0x7f0a0009;
         public static final int txtForgetPwd=0x7f0a0024;
-        public static final int txtLog=0x7f0a0090;
+        public static final int txtLog=0x7f0a0093;
         public static final int txtPassword=0x7f0a0014;
         public static final int txtSignUpAgreement=0x7f0a008e;
         public static final int txtUsername=0x7f0a0013;
@@ -209,6 +211,7 @@ public final class R {
         public static final int txt_violationdetailitem_title=0x7f0a007f;
         public static final int username=0x7f0a0021;
         public static final int viewflipper_scrollview=0x7f0a000b;
+        public static final int widget31=0x7f0a0090;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -247,8 +250,9 @@ public final class R {
         public static final int partview_violationdetail_items=0x7f030021;
         public static final int relativelayout_test=0x7f030022;
         public static final int signupactivity=0x7f030023;
-        public static final int thread_main=0x7f030024;
-        public static final int weight_and_gravity_activity=0x7f030025;
+        public static final int tabhost_activity=0x7f030024;
+        public static final int thread_main=0x7f030025;
+        public static final int weight_and_gravity_activity=0x7f030026;
     }
     public static final class menu {
         public static final int activity_main=0x7f090000;
